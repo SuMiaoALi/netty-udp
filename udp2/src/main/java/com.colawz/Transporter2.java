@@ -136,6 +136,7 @@ public class Transporter2 {
 
     public void shutdown() {
         this.boss.shutdownGracefully();
+        this.callbackService.shutdown();
     }
 
     public void receiveAndSend(Proto proto) {

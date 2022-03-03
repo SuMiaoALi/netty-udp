@@ -133,6 +133,7 @@ public class Transporter1 {
 
     public void shutdown() {
         this.boss.shutdownGracefully();
+        this.callbackService.shutdown();
     }
 
     public void send() {
