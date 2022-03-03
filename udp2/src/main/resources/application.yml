@@ -1,0 +1,6 @@
+broadcast:
+  another: 10000
+  me: 20000
+
+server:
+  port: 9000
